@@ -1,0 +1,51 @@
+.Home {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 320px;
+  height: 1000px;
+  background: blue;
+  position: absolute;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: red;
+  font-size: 30px;
+  padding-top: 10px;
+
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  background: orange;
+  font-size: 30px;
+  padding-top: 5px;
+  /*padding: 0 auto;*/
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputInner {
+  width: 70%;
+  height: 30px;
+  background: orange;
+  font-size: 30px;
+  padding-top: 10px;
+  /*padding: 0 auto;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.test {
+  text-decoration: line-through;
+  display: none;
+}
